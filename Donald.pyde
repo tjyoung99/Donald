@@ -17,20 +17,22 @@ def setup():
     fill(255,255,255)
     ellipse(75,365,50,50) #eye2
     fill(0,0,0)
-    ellipse(90,350,10,10)pupil
+    ellipse(90,350,10,10) #pupil
     fill(255,255,0)
     ellipse(75,400,100,100)
     fill(255,255,255)
     ellipse(100,375,50,50)#eye1
     fill(0,0,0)
     ellipse(114,362,10,10) #pupil
-    
+   
     b=10
     fill(255,255,255)
     noStroke()
     ellipse(240,327,b,b)
+    
     ellipse(230,327,b,b)
     ellipse(220,327,b,b)
     ellipse(230,336,b,b)
     ellipse(240,336,b,b)
     ellipse(240,345,b,b)
+    triangle(100,120,200,100,300,100)
